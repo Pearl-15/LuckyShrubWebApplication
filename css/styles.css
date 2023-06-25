@@ -49,9 +49,13 @@ nav ul li a {
     text-decoration: none;
 }
   
+
+
 nav ul li a:hover{
     color:black;
 }
+
+
 
 nav ul{
     list-style: none;
@@ -74,7 +78,7 @@ article{
 
 footer{
     display: flex;
-    background-color: rgb(131, 78, 9);
+    background-color: rgb(190, 128, 46);
     margin-top:10px;
     border-radius: 10px 10px 0 0;
     color:white;

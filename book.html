@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lucky Shrub</title>
+    <meta name="description" content="A brief description">
+    <meta name="author" content="Lucky Shrub garden design firm">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/book.css">
+    <link rel="preconnect" href="https://fonts.googleapiscom">
+
 </head>
 <body>
-    <h1>This is booking page</h1>
+    <header>
+        <img src="image/logo.png">
+    </header>
+    <nav>        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catelog.html">Catelog</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Please fill up the Booking Form</h3>
+        <form>
+            <div>
+                <label for="client_name"><span>Name:</span></label>
+                <input type="text" id="client_email" name="client_name" required>      
+            </div>  
+
+            <div>
+              <label for="client_email"><span>Email Address: </span></label>
+              <input type="email" id="client_email" name="client_email" required>      
+            </div>   
+            <div>
+                <label for="client_phone"><span>Phone Number: </span></label>
+                <input type="text" id="client_email" name="client_email" required>      
+              </div>  
+            <div>
+              <label for="date_of_booking"><span>Booking Date and Time:</span> </label>
+              <input type="datetime-local" id="date_of_booking" name="date_of_booking">      
+            </div>   
+            <button type="submit" >Book Now </button>           
+          </form>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div>
+                <img src="image/logo_footer.png">
+            </div class="centered-text">
+            <div>
+                <p>Copyright Lucky Shrub</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
