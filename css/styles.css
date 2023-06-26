@@ -67,14 +67,24 @@ nav li{
     margin:10px;
 }
 
-
-section{
+/* Default styles for articles */
+section {
     display: flex;
-}
-
-article{
-    flex:1;
-}
+    flex-wrap: wrap;
+  }
+  
+  article {
+    flex: 1 0 calc(25% - 20px);
+    margin: 10px;
+  }
+  
+  /* Media query for mobile screens */
+  @media only screen and (max-width: 600px) {
+    article {
+      flex: 1 0 calc(50% - 20px);
+    }
+  }
+  
 
 footer{
     display: flex;

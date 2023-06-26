@@ -1,0 +1,29 @@
+h3{
+    color:rgb(50, 111, 91);
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+
+main img{
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+
+article {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the second article */
+  article:nth-child(2) {
+    margin-top: 80px;
+  }
+  

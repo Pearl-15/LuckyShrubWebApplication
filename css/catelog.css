@@ -1,0 +1,29 @@
+
+h3{
+    color:rgb(50, 111, 91);
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+main img{
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+
+main img:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+main p{
+    text-align: center;
+    color: rgb(151, 105, 44);
+    font-weight: bold;
+}
