@@ -5,6 +5,7 @@ Using pure HTML and CSS for front-end web development is a good approach when a 
 This web application is only focused on front-end design by using HTML and CSS. All the effects, animation, and responsive pages were written by using only CSS. 
 
 This web application includes 5 pages. They are:
+
 (1) index.html - which is the landing page/home page of the web application, it has 3 sections such as 'Nav bar', 'promotion area', 'catalog, and services' provided by the company. 
 
 (2) catalog.html - which is the catalog page that displays plant type and this page can be accessed from either the 'Nav bar' or a brief explanation of the 'Discover Plants Here' button from the 'Home' page.
